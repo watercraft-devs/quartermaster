@@ -68,7 +68,7 @@ RUN+="/usr/local/sbin/quartermaster-notify ipp-usb"
 
 ## Requirements
 - `udev`
-- `sysvinit` style init system
+- any init system to start it at boot ( tested on Devuan with `sysvinit` )
 - Linux specific `/proc/.../comm`
 
 ## Install
